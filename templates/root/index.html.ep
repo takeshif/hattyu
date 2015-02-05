@@ -1,7 +1,7 @@
 % layout 'default';
 
 <div class="row">
-<div class="col-md-8">
+<div class="col-md-12">
 <div class="page-header">
   <h1>商品一覧</h1>
 </div>
@@ -10,26 +10,37 @@
 
 <form action="/delete" method="post">
 <div class="row">
-<div class="col-md-8">
-% my $seq = 0;
+<div class="col-md-12">
 <table class="table table-striped table-bordered table-hover">
   <thead>
 	  <tr>
-		  <th>SEQ</th>
+		  <th>商品画像</th>
 			<th>商品コード</th>
 			<th>商品名</th>
+			<th>取引先</th>
+			<th>上代単価</th>
+			<th>下代単価</th>
+			<th>品類</th>
+			<th>販売開始日</th>
+			<th>ランク</th>
+			<th>発単</th>
 			<th>発注数</th>
 		</tr>
 	</thead>
 	<tbody>
 % for my $entry (@$entries) {
 				<tr>
-				  <% ++$seq %>
-          <td><%= ++$seq %></td>				
-				  <td><%= $seq %></div>
+				  <td><img src="/images/<%= $entry->{row_data}{item_cd} %>-s.jpg"></td>
 					<td><%= $entry->{row_data}{item_cd} %></td>
 					<td><%= $entry->{row_data}{item_name} %></td>
-					<input type="text" class="form-control" id="suryo" placeholder="Enter suryo" />
+					<td><%= $entry->{row_data}{imsir} %></td>
+					<td><%= $entry->{row_data}{jyodai} %></td>
+					<td><%= $entry->{row_data}{gedai} %></td>
+					<td><%= $entry->{row_data}{hinrui} %></td>
+					<td><%= $entry->{row_data}{sales_start_date} %></td>
+					<td><%= $entry->{row_data}{rank} %></td>
+					<td><%= $entry->{row_data}{hattan} %></td>
+					<td><input type="text" class="form-control" id="suryo" placeholder="Enter suryo" size="3"></td>
 				</tr>
 % }
 </tbody>

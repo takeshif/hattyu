@@ -40,4 +40,3 @@ CREATE TABLE m_shop (
 				PRIMARY KEY (`id`)
   ) DEFAULT CHARACTER SET 'utf8' engine=InnoDB;
 
-

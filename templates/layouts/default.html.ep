@@ -31,6 +31,10 @@
     .btn-danger {
 	    margin-top: 10px;
     }
+		td {
+						display: table-cell;
+						vertical-align: middle;
+		}
     </style>
   </head>
   <body>
