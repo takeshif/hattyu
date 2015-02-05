@@ -1,0 +1,5 @@
+INSERT INTO m_item (id,item_cd,item_name,jyodai,gedai,shiire,hattan,sales_start_date,rank,hinrui,hinsyu,imsir,card,created_at,updated_at)
+VALUES (1,'2000235135483','南国柄カチューム　RE',1404,1300,780,1,20140612,1,114,114011,'235',1,'2015-02-05','2015-02-05');
+
+INSERT INTO m_item (id,item_cd,item_name,jyodai,gedai,shiire,hattan,sales_start_date,rank,hinrui,hinsyu,imsir,card,created_at,updated_at)
+VALUES (1,'2000235135490','南国柄カチューム　BL',1405,1301,781,2,20140613,2,115,115011,'236',2,'2015-02-05','2015-02-05');

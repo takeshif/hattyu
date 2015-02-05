@@ -1,0 +1,26 @@
+% layout 'default';
+
+<div class="row">
+<div class="col-md-8">
+<div class="page-header">
+  <h1>商品一覧</h1>
+</div>
+</div>
+</div>
+
+<form action="/delete" method="post">
+<div class="row">
+<div class="col-md-8">
+% my $seq = 0;
+% for my $entry (@$entries) {
+        % ++$seq;				
+ 				<div class="postcell">
+				  <div class="seq"><%= $seq %></div>
+					<div class="item_cd"><%= $entry->{row_data}{item_cd} %></div>
+					<div class="item_name"><%= $entry->{row_data}{item_name} %></div>
+					<input type="text" class="form-control" id="suryo" placeholder="Enter suryo" />
+        </div>
+</div>
+% }
+</div>
+

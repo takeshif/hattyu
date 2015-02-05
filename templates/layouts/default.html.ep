@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>商品発注</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <style>
+    .navbar-brand {
+	    font-style: italic;
+	    font-weight: bold;
+    }
+    .postcell {
+	    background-color: #FFFFCC;
+	    margin: 15px 0px;
+	    padding: 15px;
+	    border-radius: 8px;
+    }
+    .postcell .title {
+	    font-weight: bold;
+	    background-color: #FFCC00;
+    }
+    .postcell .body {
+	    margin-top: 10px;
+	    word-wrap: break-word;
+    }
+    .postcell .delete {
+            margin-top: 20px;
+	    font-size: 80%;
+	    text-align: right;
+    }
+    .btn-danger {
+	    margin-top: 10px;
+    }
+    </style>
+  </head>
+  <body>
+    <header class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+	  <a href="/" class="navbar-brand">発注</a>
+	</div>
+      </div>
+    </header>
+    <div class="container">
+      <%= content %>
+    </div>
+  </body>
+</html>

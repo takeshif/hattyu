@@ -1,0 +1,466 @@
+[Thu Feb  5 10:33:12 2015] [info] Listening at "http://*:3000".
+[Thu Feb  5 10:33:31 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Feb  5 10:33:31 2015] [debug] GET "/".
+[Thu Feb  5 10:33:31 2015] [error] Invalid version format (non-numeric data) at /Users/mac05/system14/hattyu_web/script/../lib/Hattyu/DB.pm line 1, near "package Hattyu::DB"
+syntax error at /Users/mac05/system14/hattyu_web/script/../lib/Hattyu/DB.pm line 1, near "package Hattyu::DB:"
+"use" not allowed in expression at /Users/mac05/system14/hattyu_web/script/../lib/Hattyu/DB.pm line 2, at end of line
+Compilation failed in require at /Users/mac05/system14/hattyu_web/script/../lib/Hattyu/Web/Controller/Root.pm line 3.
+BEGIN failed--compilation aborted at /Users/mac05/system14/hattyu_web/script/../lib/Hattyu/Web/Controller/Root.pm line 3.
+Compilation failed in require at (eval 268) line 1.
+
+[Thu Feb  5 10:33:31 2015] [debug] Template "exception.development.html.ep" not found.
+[Thu Feb  5 10:33:31 2015] [debug] Template "exception.html.ep" not found.
+[Thu Feb  5 10:33:31 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:33:31 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:33:31 2015] [debug] 500 Internal Server Error (0.061232s, 16.331/s).
+[Thu Feb  5 10:33:33 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 10:33:33 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 10:33:33 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 10:33:33 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:33:33 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:33:33 2015] [debug] 404 Not Found (0.041404s, 24.152/s).
+[Thu Feb  5 10:33:33 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 10:33:33 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 10:33:33 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 10:33:33 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:33:33 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:33:33 2015] [debug] 404 Not Found (0.010956s, 91.274/s).
+[Thu Feb  5 10:37:50 2015] [info] Listening at "http://*:3000".
+[Thu Feb  5 10:37:53 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Feb  5 10:37:53 2015] [debug] GET "/".
+[Thu Feb  5 10:37:53 2015] [error] Invalid version format (non-numeric data) at lib/Hattyu/DB.pm line 1, near "package Hattyu::DB"
+syntax error at lib/Hattyu/DB.pm line 1, near "package Hattyu::DB:"
+"use" not allowed in expression at lib/Hattyu/DB.pm line 2, at end of line
+Compilation failed in require at lib/Hattyu/Web/Controller/Root.pm line 3.
+BEGIN failed--compilation aborted at lib/Hattyu/Web/Controller/Root.pm line 3.
+Compilation failed in require at (eval 268) line 1.
+
+[Thu Feb  5 10:37:53 2015] [debug] Template "exception.development.html.ep" not found.
+[Thu Feb  5 10:37:53 2015] [debug] Template "exception.html.ep" not found.
+[Thu Feb  5 10:37:53 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:37:53 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:37:53 2015] [debug] 500 Internal Server Error (0.056510s, 17.696/s).
+[Thu Feb  5 10:37:55 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 10:37:55 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 10:37:55 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 10:37:55 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:37:55 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:37:55 2015] [debug] 404 Not Found (0.040171s, 24.894/s).
+[Thu Feb  5 10:37:55 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 10:37:55 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 10:37:55 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 10:37:55 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:37:55 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:37:55 2015] [debug] 404 Not Found (0.009541s, 104.811/s).
+[Thu Feb  5 10:38:54 2015] [info] Listening at "http://*:3000".
+[Thu Feb  5 10:38:57 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Feb  5 10:38:57 2015] [debug] GET "/".
+[Thu Feb  5 10:38:58 2015] [error] Connection error: DBI connect('Hattyu:localhost','root',...) failed: Unknown database 'hattyu' at /Users/mac05/perl5/perlbrew/perls/perl-5.21.2/lib/site_perl/5.21.2/Teng.pm line 128.
+ at lib/Hattyu/Web/Controller/Root.pm line 7.
+Compilation failed in require at (eval 268) line 1.
+
+[Thu Feb  5 10:38:58 2015] [debug] Template "exception.development.html.ep" not found.
+[Thu Feb  5 10:38:58 2015] [debug] Template "exception.html.ep" not found.
+[Thu Feb  5 10:38:58 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:38:58 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:38:58 2015] [debug] 500 Internal Server Error (0.713246s, 1.402/s).
+[Thu Feb  5 10:38:58 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 10:38:58 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 10:38:58 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 10:38:58 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:38:58 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:38:58 2015] [debug] 404 Not Found (0.042405s, 23.582/s).
+[Thu Feb  5 10:38:58 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 10:38:58 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 10:38:58 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 10:38:58 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:38:58 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:38:58 2015] [debug] 404 Not Found (0.008962s, 111.582/s).
+[Thu Feb  5 10:40:10 2015] [info] Listening at "http://*:3000".
+[Thu Feb  5 10:40:13 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Feb  5 10:40:13 2015] [debug] GET "/".
+[Thu Feb  5 10:40:13 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Thu Feb  5 10:40:13 2015] [error] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@ Teng 's Exception @@@@@
+Reason  : DBD::mysql::st execute failed: Table 'hattyu.m_item' doesn't exist at /Users/mac05/perl5/perlbrew/perls/perl-5.21.2/lib/site_perl/5.21.2/Teng.pm line 282.
+
+SQL     : SELECT `id`, `item_cd`, `item_name`, `jyodai`, `gedai`, `shiire`, `hattan`, `sales_start_date`, `rank`, `hinrui`, `hinsyu`, `imsir`, `card`, `created_at`, `updated_at`
+          FROM `m_item`
+          WHERE (`hinrui` IS NULL)
+          ORDER BY imsir, sale_start_date
+BIND    : $VAR1 = [];
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ at lib/Hattyu/Web/Controller/Root.pm line 12.
+
+[Thu Feb  5 10:40:13 2015] [debug] Template "exception.development.html.ep" not found.
+[Thu Feb  5 10:40:13 2015] [debug] Template "exception.html.ep" not found.
+[Thu Feb  5 10:40:13 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:40:13 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:40:13 2015] [debug] 500 Internal Server Error (0.347955s, 2.874/s).
+[Thu Feb  5 10:40:13 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 10:40:13 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 10:40:13 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 10:40:13 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:40:13 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:40:13 2015] [debug] 404 Not Found (0.043227s, 23.134/s).
+[Thu Feb  5 10:40:13 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 10:40:13 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 10:40:13 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 10:40:13 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:40:13 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:40:13 2015] [debug] 404 Not Found (0.011429s, 87.497/s).
+[Thu Feb  5 10:46:57 2015] [info] Listening at "http://*:3000".
+[Thu Feb  5 10:47:01 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Feb  5 10:47:01 2015] [debug] GET "/".
+[Thu Feb  5 10:47:01 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Thu Feb  5 10:47:01 2015] [error] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@ Teng 's Exception @@@@@
+Reason  : DBD::mysql::st execute failed: Unknown column 'sale_start_date' in 'order clause' at /Users/mac05/perl5/perlbrew/perls/perl-5.21.2/lib/site_perl/5.21.2/Teng.pm line 282.
+
+SQL     : SELECT `id`, `item_cd`, `item_name`, `jyodai`, `gedai`, `shiire`, `hattan`, `sales_start_date`, `rank`, `hinrui`, `hinsyu`, `imsir`, `card`, `created_at`, `updated_at`
+          FROM `m_item`
+          WHERE (`hinrui` IS NULL)
+          ORDER BY imsir, sale_start_date
+BIND    : $VAR1 = [];
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ at lib/Hattyu/Web/Controller/Root.pm line 12.
+
+[Thu Feb  5 10:47:01 2015] [debug] Template "exception.development.html.ep" not found.
+[Thu Feb  5 10:47:01 2015] [debug] Template "exception.html.ep" not found.
+[Thu Feb  5 10:47:01 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:47:01 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:47:01 2015] [debug] 500 Internal Server Error (0.311880s, 3.206/s).
+[Thu Feb  5 10:47:02 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 10:47:02 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 10:47:02 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 10:47:02 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:47:02 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:47:02 2015] [debug] 404 Not Found (0.045025s, 22.210/s).
+[Thu Feb  5 10:47:02 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 10:47:02 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 10:47:02 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 10:47:02 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:47:02 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:47:02 2015] [debug] 404 Not Found (0.011371s, 87.943/s).
+[Thu Feb  5 10:48:25 2015] [info] Listening at "http://*:3000".
+[Thu Feb  5 10:48:27 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Feb  5 10:48:27 2015] [debug] GET "/".
+[Thu Feb  5 10:48:27 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Thu Feb  5 10:48:27 2015] [error] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@ Teng 's Exception @@@@@
+Reason  : DBD::mysql::st execute failed: Unknown column 'sale_start_date' in 'field list' at /Users/mac05/perl5/perlbrew/perls/perl-5.21.2/lib/site_perl/5.21.2/Teng.pm line 282.
+
+SQL     : SELECT `id`, `item_cd`, `item_name`, `jyodai`, `gedai`, `shiire`, `hattan`, `sale_start_date`, `rank`, `hinrui`, `hinsyu`, `imsir`, `card`, `created_at`, `updated_at`
+          FROM `m_item`
+          WHERE (`hinrui` IS NULL)
+          ORDER BY imsir, sale_start_date
+BIND    : $VAR1 = [];
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ at lib/Hattyu/Web/Controller/Root.pm line 12.
+
+[Thu Feb  5 10:48:27 2015] [debug] Template "exception.development.html.ep" not found.
+[Thu Feb  5 10:48:27 2015] [debug] Template "exception.html.ep" not found.
+[Thu Feb  5 10:48:27 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:48:27 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:48:27 2015] [debug] 500 Internal Server Error (0.312552s, 3.199/s).
+[Thu Feb  5 10:48:28 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 10:48:28 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 10:48:28 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 10:48:28 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:48:28 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:48:28 2015] [debug] 404 Not Found (0.045323s, 22.064/s).
+[Thu Feb  5 10:48:28 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 10:48:28 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 10:48:28 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 10:48:28 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:48:28 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:48:28 2015] [debug] 404 Not Found (0.011229s, 89.055/s).
+[Thu Feb  5 10:51:25 2015] [info] Listening at "http://*:3000".
+[Thu Feb  5 10:51:28 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Feb  5 10:51:28 2015] [debug] GET "/".
+[Thu Feb  5 10:51:28 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Thu Feb  5 10:51:28 2015] [error] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@ Teng 's Exception @@@@@
+Reason  : DBD::mysql::st execute failed: Unknown column 'sale_start_date' in 'order clause' at /Users/mac05/perl5/perlbrew/perls/perl-5.21.2/lib/site_perl/5.21.2/Teng.pm line 282.
+
+SQL     : SELECT `id`, `item_cd`, `item_name`, `jyodai`, `gedai`, `shiire`, `hattan`, `sales_start_date`, `rank`, `hinrui`, `hinsyu`, `imsir`, `card`, `created_at`, `updated_at`
+          FROM `m_item`
+          WHERE (`hinrui` IS NULL)
+          ORDER BY imsir, sale_start_date
+BIND    : $VAR1 = [];
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ at lib/Hattyu/Web/Controller/Root.pm line 12.
+
+[Thu Feb  5 10:51:28 2015] [debug] Template "exception.development.html.ep" not found.
+[Thu Feb  5 10:51:28 2015] [debug] Template "exception.html.ep" not found.
+[Thu Feb  5 10:51:28 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:51:28 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:51:28 2015] [debug] 500 Internal Server Error (0.296239s, 3.376/s).
+[Thu Feb  5 10:51:28 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 10:51:28 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 10:51:28 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 10:51:28 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:51:28 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:51:28 2015] [debug] 404 Not Found (0.047154s, 21.207/s).
+[Thu Feb  5 10:51:28 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 10:51:28 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 10:51:28 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 10:51:28 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:51:28 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:51:28 2015] [debug] 404 Not Found (0.011163s, 89.582/s).
+[Thu Feb  5 10:54:26 2015] [info] Listening at "http://*:3000".
+[Thu Feb  5 10:54:28 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Feb  5 10:54:28 2015] [debug] GET "/".
+[Thu Feb  5 10:54:28 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Thu Feb  5 10:54:28 2015] [debug] Rendering template "root/index.html.ep".
+[Thu Feb  5 10:54:28 2015] [debug] Rendering template "layouts/default.html.ep".
+[Thu Feb  5 10:54:28 2015] [debug] 200 OK (0.286653s, 3.489/s).
+[Thu Feb  5 10:54:29 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 10:54:29 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 10:54:29 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 10:54:29 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:54:29 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:54:29 2015] [debug] 404 Not Found (0.040695s, 24.573/s).
+[Thu Feb  5 10:54:29 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 10:54:29 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 10:54:29 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 10:54:29 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:54:29 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:54:29 2015] [debug] 404 Not Found (0.009129s, 109.541/s).
+[Thu Feb  5 10:54:36 2015] [debug] GET "/".
+[Thu Feb  5 10:54:36 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Thu Feb  5 10:54:36 2015] [debug] Rendering cached template "root/index.html.ep".
+[Thu Feb  5 10:54:36 2015] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Feb  5 10:54:36 2015] [debug] 200 OK (0.003438s, 290.867/s).
+[Thu Feb  5 10:54:36 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 10:54:36 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 10:54:36 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 10:54:36 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:54:36 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:54:36 2015] [debug] 404 Not Found (0.012071s, 82.843/s).
+[Thu Feb  5 10:54:36 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 10:54:36 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 10:54:36 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 10:54:36 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:54:36 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:54:36 2015] [debug] 404 Not Found (0.009503s, 105.230/s).
+[Thu Feb  5 10:57:26 2015] [info] Listening at "http://*:3000".
+[Thu Feb  5 10:57:28 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Feb  5 10:57:28 2015] [debug] GET "/".
+[Thu Feb  5 10:57:28 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Thu Feb  5 10:57:28 2015] [debug] Rendering template "root/index.html.ep".
+[Thu Feb  5 10:57:28 2015] [debug] Rendering template "layouts/default.html.ep".
+[Thu Feb  5 10:57:28 2015] [debug] 200 OK (0.406868s, 2.458/s).
+[Thu Feb  5 10:57:29 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 10:57:29 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 10:57:29 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 10:57:29 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:57:29 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:57:29 2015] [debug] 404 Not Found (0.047582s, 21.016/s).
+[Thu Feb  5 10:57:29 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 10:57:29 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 10:57:29 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 10:57:29 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:57:29 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:57:29 2015] [debug] 404 Not Found (0.009299s, 107.538/s).
+[Thu Feb  5 10:57:36 2015] [debug] GET "/".
+[Thu Feb  5 10:57:36 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Thu Feb  5 10:57:36 2015] [debug] Rendering cached template "root/index.html.ep".
+[Thu Feb  5 10:57:36 2015] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Feb  5 10:57:36 2015] [debug] 200 OK (0.003145s, 317.965/s).
+[Thu Feb  5 10:57:36 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 10:57:36 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 10:57:36 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 10:57:36 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:57:36 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:57:36 2015] [debug] 404 Not Found (0.016519s, 60.536/s).
+[Thu Feb  5 10:57:36 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 10:57:36 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 10:57:36 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 10:57:36 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 10:57:36 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 10:57:36 2015] [debug] 404 Not Found (0.009869s, 101.327/s).
+[Thu Feb  5 11:00:16 2015] [info] Listening at "http://*:3000".
+[Thu Feb  5 11:00:18 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Feb  5 11:00:18 2015] [debug] GET "/".
+[Thu Feb  5 11:00:18 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Thu Feb  5 11:00:18 2015] [debug] Rendering template "root/index.html.ep".
+[Thu Feb  5 11:00:18 2015] [debug] Rendering template "layouts/default.html.ep".
+[Thu Feb  5 11:00:18 2015] [debug] 200 OK (0.225435s, 4.436/s).
+[Thu Feb  5 11:00:18 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 11:00:18 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 11:00:18 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 11:00:18 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 11:00:18 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 11:00:18 2015] [debug] 404 Not Found (0.042041s, 23.786/s).
+[Thu Feb  5 11:00:18 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 11:00:18 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 11:00:18 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 11:00:18 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 11:00:18 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 11:00:18 2015] [debug] 404 Not Found (0.008849s, 113.007/s).
+[Thu Feb  5 11:00:20 2015] [debug] GET "/".
+[Thu Feb  5 11:00:20 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Thu Feb  5 11:00:20 2015] [debug] Rendering cached template "root/index.html.ep".
+[Thu Feb  5 11:00:20 2015] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Feb  5 11:00:20 2015] [debug] 200 OK (0.003185s, 313.972/s).
+[Thu Feb  5 11:00:20 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 11:00:20 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 11:00:20 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 11:00:20 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 11:00:20 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 11:00:20 2015] [debug] 404 Not Found (0.013195s, 75.786/s).
+[Thu Feb  5 11:00:20 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 11:00:20 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 11:00:20 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 11:00:20 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 11:00:20 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 11:00:20 2015] [debug] 404 Not Found (0.009495s, 105.319/s).
+[Thu Feb  5 11:58:36 2015] [info] Listening at "http://*:3000".
+[Thu Feb  5 11:58:40 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Feb  5 11:58:40 2015] [debug] GET "/".
+[Thu Feb  5 11:58:41 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Thu Feb  5 11:58:41 2015] [debug] Rendering template "root/index.html.ep".
+[Thu Feb  5 11:58:41 2015] [debug] Rendering template "layouts/default.html.ep".
+[Thu Feb  5 11:58:41 2015] [debug] 200 OK (0.298526s, 3.350/s).
+[Thu Feb  5 11:58:41 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 11:58:41 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 11:58:41 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 11:58:41 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 11:58:41 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 11:58:41 2015] [debug] 404 Not Found (0.039787s, 25.134/s).
+[Thu Feb  5 11:58:41 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 11:58:41 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 11:58:41 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 11:58:41 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 11:58:41 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 11:58:41 2015] [debug] 404 Not Found (0.010634s, 94.038/s).
+[Thu Feb  5 11:58:44 2015] [debug] GET "/".
+[Thu Feb  5 11:58:44 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Thu Feb  5 11:58:44 2015] [debug] Rendering cached template "root/index.html.ep".
+[Thu Feb  5 11:58:44 2015] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Feb  5 11:58:44 2015] [debug] 200 OK (0.005330s, 187.617/s).
+[Thu Feb  5 11:58:44 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 11:58:44 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 11:58:44 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 11:58:44 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 11:58:44 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 11:58:44 2015] [debug] 404 Not Found (0.009747s, 102.596/s).
+[Thu Feb  5 11:58:44 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 11:58:44 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 11:58:44 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 11:58:44 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 11:58:44 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 11:58:44 2015] [debug] 404 Not Found (0.009409s, 106.281/s).
+[Thu Feb  5 11:58:49 2015] [debug] GET "/".
+[Thu Feb  5 11:58:49 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Thu Feb  5 11:58:49 2015] [debug] Rendering cached template "root/index.html.ep".
+[Thu Feb  5 11:58:49 2015] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Feb  5 11:58:49 2015] [debug] 200 OK (0.004264s, 234.522/s).
+[Thu Feb  5 11:58:50 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 11:58:50 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 11:58:50 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 11:58:50 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 11:58:50 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 11:58:50 2015] [debug] 404 Not Found (0.009787s, 102.176/s).
+[Thu Feb  5 11:58:50 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 11:58:50 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 11:58:50 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 11:58:50 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 11:58:50 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 11:58:50 2015] [debug] 404 Not Found (0.009802s, 102.020/s).
+[Thu Feb  5 11:58:59 2015] [debug] GET "/".
+[Thu Feb  5 11:58:59 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Thu Feb  5 11:58:59 2015] [debug] Rendering cached template "root/index.html.ep".
+[Thu Feb  5 11:58:59 2015] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Feb  5 11:58:59 2015] [debug] 200 OK (0.005180s, 193.050/s).
+[Thu Feb  5 11:59:00 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 11:59:00 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 11:59:00 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 11:59:00 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 11:59:00 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 11:59:00 2015] [debug] 404 Not Found (0.009286s, 107.689/s).
+[Thu Feb  5 11:59:00 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 11:59:00 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 11:59:00 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 11:59:00 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 11:59:00 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 11:59:00 2015] [debug] 404 Not Found (0.009481s, 105.474/s).
+[Thu Feb  5 12:00:35 2015] [info] Listening at "http://*:3000".
+[Thu Feb  5 12:00:37 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Feb  5 12:00:37 2015] [debug] GET "/".
+[Thu Feb  5 12:00:37 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Thu Feb  5 12:00:37 2015] [error] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@ Teng 's Exception @@@@@
+Reason  : DBD::mysql::st execute failed: Unknown column 'order_by' in 'where clause' at /Users/mac05/perl5/perlbrew/perls/perl-5.21.2/lib/site_perl/5.21.2/Teng.pm line 282.
+
+SQL     : SELECT `id`, `item_cd`, `item_name`, `jyodai`, `gedai`, `shiire`, `hattan`, `sales_start_date`, `rank`, `hinrui`, `hinsyu`, `imsir`, `card`, `created_at`, `updated_at`
+          FROM `m_item`
+          WHERE (`order_by` IN (?, ?))
+BIND    : $VAR1 = [
+          'imsir',
+          'sales_start_date'
+        ];
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ at lib/Hattyu/Web/Controller/Root.pm line 13.
+
+[Thu Feb  5 12:00:37 2015] [debug] Template "exception.development.html.ep" not found.
+[Thu Feb  5 12:00:37 2015] [debug] Template "exception.html.ep" not found.
+[Thu Feb  5 12:00:37 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 12:00:38 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 12:00:38 2015] [debug] 500 Internal Server Error (0.310045s, 3.225/s).
+[Thu Feb  5 12:00:38 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 12:00:38 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 12:00:38 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 12:00:38 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 12:00:38 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 12:00:38 2015] [debug] 404 Not Found (0.040141s, 24.912/s).
+[Thu Feb  5 12:00:38 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 12:00:38 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 12:00:38 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 12:00:38 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 12:00:38 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 12:00:38 2015] [debug] 404 Not Found (0.009602s, 104.145/s).
+[Thu Feb  5 12:01:25 2015] [info] Listening at "http://*:3000".
+[Thu Feb  5 12:01:28 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Feb  5 12:01:28 2015] [debug] GET "/".
+[Thu Feb  5 12:01:28 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Thu Feb  5 12:01:28 2015] [debug] Rendering template "root/index.html.ep".
+[Thu Feb  5 12:01:28 2015] [debug] Rendering template "layouts/default.html.ep".
+[Thu Feb  5 12:01:28 2015] [debug] 200 OK (0.222160s, 4.501/s).
+[Thu Feb  5 12:01:29 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 12:01:29 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 12:01:29 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 12:01:29 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 12:01:29 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 12:01:29 2015] [debug] 404 Not Found (0.056002s, 17.857/s).
+[Thu Feb  5 12:01:29 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 12:01:29 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 12:01:29 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 12:01:29 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 12:01:29 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 12:01:29 2015] [debug] 404 Not Found (0.011356s, 88.059/s).
+[Thu Feb  5 13:05:01 2015] [info] Listening at "http://*:3000".
+[Thu Feb  5 13:05:19 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Feb  5 13:05:19 2015] [debug] GET "/".
+[Thu Feb  5 13:05:20 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Thu Feb  5 13:05:20 2015] [debug] Rendering template "root/index.html.ep".
+[Thu Feb  5 13:05:20 2015] [debug] Rendering template "layouts/default.html.ep".
+[Thu Feb  5 13:05:20 2015] [debug] 200 OK (0.555587s, 1.800/s).
+[Thu Feb  5 13:05:20 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 13:05:20 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 13:05:20 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 13:05:20 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 13:05:20 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 13:05:20 2015] [debug] 404 Not Found (0.040604s, 24.628/s).
+[Thu Feb  5 13:05:20 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 13:05:20 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 13:05:20 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 13:05:20 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 13:05:20 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 13:05:20 2015] [debug] 404 Not Found (0.053745s, 18.606/s).
