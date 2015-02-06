@@ -739,3 +739,391 @@ BIND    : $VAR1 = [
 [Thu Feb  5 14:38:53 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
 [Thu Feb  5 14:38:53 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
 [Thu Feb  5 14:38:53 2015] [debug] 404 Not Found (0.012037s, 83.077/s).
+[Thu Feb  5 16:59:35 2015] [info] Listening at "http://*:3000".
+[Thu Feb  5 16:59:53 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Feb  5 16:59:53 2015] [debug] GET "/".
+[Thu Feb  5 16:59:55 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Thu Feb  5 16:59:55 2015] [debug] Rendering template "root/index.html.ep".
+[Thu Feb  5 16:59:55 2015] [debug] Rendering template "layouts/default.html.ep".
+[Thu Feb  5 16:59:55 2015] [debug] 200 OK (1.745548s, 0.573/s).
+[Thu Feb  5 16:59:55 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 16:59:55 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 16:59:55 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 16:59:55 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 16:59:55 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 16:59:55 2015] [debug] 404 Not Found (0.051258s, 19.509/s).
+[Thu Feb  5 16:59:55 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 16:59:55 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 16:59:55 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 16:59:55 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 16:59:55 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 16:59:55 2015] [debug] 404 Not Found (0.009240s, 108.225/s).
+[Thu Feb  5 16:59:56 2015] [debug] GET "/menu".
+[Thu Feb  5 16:59:56 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "menu".
+[Thu Feb  5 16:59:56 2015] [error] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@ Teng 's Exception @@@@@
+Reason  : DBD::mysql::st execute failed: Unknown column 'shop_id' in 'where clause' at /Users/mac05/perl5/perlbrew/perls/perl-5.21.2/lib/site_perl/5.21.2/Teng.pm line 282.
+
+SQL     : SELECT `id`, `shop_cd`, `shop_name`, `password`, `created_at`, `updated_at`
+          FROM `m_shop`
+          WHERE (`shop_id` = ?)
+          LIMIT 1
+BIND    : $VAR1 = [
+          5002
+        ];
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ at lib/Hattyu/Web/Controller/Root.pm line 25.
+
+[Thu Feb  5 16:59:56 2015] [debug] Template "exception.development.html.ep" not found.
+[Thu Feb  5 16:59:56 2015] [debug] Template "exception.html.ep" not found.
+[Thu Feb  5 16:59:56 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 16:59:56 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 16:59:56 2015] [debug] 500 Internal Server Error (0.074956s, 13.341/s).
+[Thu Feb  5 16:59:57 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 16:59:57 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 16:59:57 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 16:59:57 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 16:59:57 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 16:59:57 2015] [debug] 404 Not Found (0.010525s, 95.012/s).
+[Thu Feb  5 16:59:57 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 16:59:57 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 16:59:57 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 16:59:57 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 16:59:57 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 16:59:57 2015] [debug] 404 Not Found (0.012708s, 78.691/s).
+[Thu Feb  5 17:00:51 2015] [info] Listening at "http://*:3000".
+[Thu Feb  5 17:00:54 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Feb  5 17:00:54 2015] [debug] GET "/menu".
+[Thu Feb  5 17:00:55 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "menu".
+[Thu Feb  5 17:00:55 2015] [debug] Rendering template "root/menu.html.ep".
+[Thu Feb  5 17:00:55 2015] [debug] Rendering template "layouts/default.html.ep".
+[Thu Feb  5 17:00:55 2015] [debug] 200 OK (0.995062s, 1.005/s).
+[Thu Feb  5 17:00:56 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 17:00:56 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 17:00:56 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 17:00:56 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 17:00:56 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 17:00:56 2015] [debug] 404 Not Found (0.047402s, 21.096/s).
+[Thu Feb  5 17:00:56 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 17:00:56 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 17:00:56 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 17:00:56 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 17:00:56 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 17:00:56 2015] [debug] 404 Not Found (0.011406s, 87.673/s).
+[Thu Feb  5 17:02:37 2015] [info] Listening at "http://*:3000".
+[Thu Feb  5 17:02:39 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Feb  5 17:02:39 2015] [debug] GET "/menu".
+[Thu Feb  5 17:02:40 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "menu".
+[Thu Feb  5 17:02:40 2015] [debug] Rendering template "root/menu.html.ep".
+[Thu Feb  5 17:02:40 2015] [debug] Rendering template "layouts/default.html.ep".
+[Thu Feb  5 17:02:40 2015] [debug] 200 OK (0.954451s, 1.048/s).
+[Thu Feb  5 17:02:41 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 17:02:41 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 17:02:41 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 17:02:41 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 17:02:41 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 17:02:41 2015] [debug] 404 Not Found (0.043526s, 22.975/s).
+[Thu Feb  5 17:02:41 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 17:02:41 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 17:02:41 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 17:02:41 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 17:02:41 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 17:02:41 2015] [debug] 404 Not Found (0.010589s, 94.438/s).
+[Thu Feb  5 17:02:51 2015] [debug] GET "/menu".
+[Thu Feb  5 17:02:51 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "menu".
+[Thu Feb  5 17:02:51 2015] [debug] Rendering cached template "root/menu.html.ep".
+[Thu Feb  5 17:02:51 2015] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Feb  5 17:02:51 2015] [debug] 200 OK (0.003118s, 320.718/s).
+[Thu Feb  5 17:02:51 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 17:02:51 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 17:02:51 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 17:02:51 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 17:02:51 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 17:02:51 2015] [debug] 404 Not Found (0.009713s, 102.955/s).
+[Thu Feb  5 17:02:51 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 17:02:51 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 17:02:51 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 17:02:51 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 17:02:51 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 17:02:51 2015] [debug] 404 Not Found (0.010380s, 96.339/s).
+[Thu Feb  5 17:02:51 2015] [debug] GET "/".
+[Thu Feb  5 17:02:51 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Thu Feb  5 17:02:51 2015] [debug] Rendering template "root/index.html.ep".
+[Thu Feb  5 17:02:51 2015] [debug] Rendering template "layouts/default.html.ep".
+[Thu Feb  5 17:02:51 2015] [debug] 200 OK (0.009798s, 102.062/s).
+[Thu Feb  5 17:02:51 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 17:02:51 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 17:02:51 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 17:02:51 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 17:02:51 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 17:02:51 2015] [debug] 404 Not Found (0.008948s, 111.757/s).
+[Thu Feb  5 17:02:51 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 17:02:51 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 17:02:51 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 17:02:51 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 17:02:51 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 17:02:51 2015] [debug] 404 Not Found (0.008858s, 112.892/s).
+[Thu Feb  5 17:02:52 2015] [debug] GET "/".
+[Thu Feb  5 17:02:52 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Thu Feb  5 17:02:52 2015] [debug] Rendering cached template "root/index.html.ep".
+[Thu Feb  5 17:02:52 2015] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Feb  5 17:02:52 2015] [debug] 200 OK (0.005858s, 170.707/s).
+[Thu Feb  5 17:02:52 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 17:02:52 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 17:02:52 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 17:02:52 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 17:02:52 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 17:02:52 2015] [debug] 404 Not Found (0.009328s, 107.204/s).
+[Thu Feb  5 17:02:52 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 17:02:52 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 17:02:52 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 17:02:52 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 17:02:52 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 17:02:52 2015] [debug] 404 Not Found (0.010568s, 94.625/s).
+[Thu Feb  5 17:05:47 2015] [info] Listening at "http://*:3000".
+[Thu Feb  5 17:05:49 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Feb  5 17:05:49 2015] [debug] GET "/menu".
+[Thu Feb  5 17:05:52 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "menu".
+[Thu Feb  5 17:05:52 2015] [debug] Rendering template "root/menu.html.ep".
+[Thu Feb  5 17:05:52 2015] [debug] Rendering template "layouts/default.html.ep".
+[Thu Feb  5 17:05:52 2015] [debug] 200 OK (2.499490s, 0.400/s).
+[Thu Feb  5 17:05:52 2015] [debug] GET "/".
+[Thu Feb  5 17:05:52 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Thu Feb  5 17:05:52 2015] [debug] Rendering template "root/index.html.ep".
+[Thu Feb  5 17:05:52 2015] [debug] Rendering template "layouts/default.html.ep".
+[Thu Feb  5 17:05:52 2015] [debug] 200 OK (0.010826s, 92.370/s).
+[Thu Feb  5 17:05:52 2015] [debug] GET "/menu".
+[Thu Feb  5 17:05:52 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "menu".
+[Thu Feb  5 17:05:52 2015] [debug] Rendering cached template "root/menu.html.ep".
+[Thu Feb  5 17:05:52 2015] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Feb  5 17:05:52 2015] [debug] 200 OK (0.003701s, 270.197/s).
+[Thu Feb  5 17:05:52 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 17:05:52 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 17:05:52 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 17:05:52 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 17:05:52 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 17:05:52 2015] [debug] 404 Not Found (0.054304s, 18.415/s).
+[Thu Feb  5 17:05:52 2015] [debug] GET "/apple-touch-icon-precomposed.png".
+[Thu Feb  5 17:05:52 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 17:05:52 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 17:05:52 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 17:05:52 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 17:05:52 2015] [debug] 404 Not Found (0.009343s, 107.032/s).
+[Thu Feb  5 17:05:52 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 17:05:52 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 17:05:52 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 17:05:52 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 17:05:52 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 17:05:52 2015] [debug] 404 Not Found (0.009228s, 108.366/s).
+[Thu Feb  5 17:05:52 2015] [debug] GET "/apple-touch-icon.png".
+[Thu Feb  5 17:05:52 2015] [debug] Template "not_found.development.html.ep" not found.
+[Thu Feb  5 17:05:52 2015] [debug] Template "not_found.html.ep" not found.
+[Thu Feb  5 17:05:52 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Thu Feb  5 17:05:52 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Thu Feb  5 17:05:52 2015] [debug] 404 Not Found (0.011821s, 84.595/s).
+[Thu Feb  5 17:05:56 2015] [debug] GET "/".
+[Thu Feb  5 17:05:56 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Thu Feb  5 17:05:56 2015] [debug] Rendering cached template "root/index.html.ep".
+[Thu Feb  5 17:05:56 2015] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Feb  5 17:05:56 2015] [debug] 200 OK (0.002729s, 366.435/s).
+[Thu Feb  5 17:05:58 2015] [debug] GET "/menu".
+[Thu Feb  5 17:05:58 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "menu".
+[Thu Feb  5 17:05:58 2015] [debug] Rendering cached template "root/menu.html.ep".
+[Thu Feb  5 17:05:58 2015] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Feb  5 17:05:58 2015] [debug] 200 OK (0.003567s, 280.348/s).
+[Thu Feb  5 17:06:00 2015] [debug] GET "/menu".
+[Thu Feb  5 17:06:00 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "menu".
+[Thu Feb  5 17:06:00 2015] [debug] Rendering cached template "root/menu.html.ep".
+[Thu Feb  5 17:06:00 2015] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Feb  5 17:06:00 2015] [debug] 200 OK (0.003824s, 261.506/s).
+[Thu Feb  5 17:14:01 2015] [info] Listening at "http://*:3000".
+[Thu Feb  5 17:14:05 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Feb  5 17:14:05 2015] [debug] GET "/menu".
+[Thu Feb  5 17:14:05 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "menu".
+[Thu Feb  5 17:14:05 2015] [debug] Rendering template "root/menu.html.ep".
+[Thu Feb  5 17:14:06 2015] [debug] Rendering template "layouts/default.html.ep".
+[Thu Feb  5 17:14:06 2015] [debug] 200 OK (0.958345s, 1.043/s).
+[Thu Feb  5 17:14:06 2015] [debug] GET "/menu".
+[Thu Feb  5 17:14:06 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "menu".
+[Thu Feb  5 17:14:06 2015] [debug] Rendering cached template "root/menu.html.ep".
+[Thu Feb  5 17:14:06 2015] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Feb  5 17:14:06 2015] [debug] 200 OK (0.002610s, 383.142/s).
+[Thu Feb  5 17:18:41 2015] [info] Listening at "http://*:3000".
+[Thu Feb  5 17:18:45 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Feb  5 17:18:45 2015] [debug] GET "/menu".
+[Thu Feb  5 17:18:45 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "menu".
+[Thu Feb  5 17:18:45 2015] [debug] Rendering template "root/menu.html.ep".
+[Thu Feb  5 17:18:45 2015] [debug] Rendering template "layouts/default.html.ep".
+[Thu Feb  5 17:18:45 2015] [debug] 200 OK (0.246526s, 4.056/s).
+[Thu Feb  5 17:18:45 2015] [debug] GET "/menu".
+[Thu Feb  5 17:18:45 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "menu".
+[Thu Feb  5 17:18:45 2015] [debug] Rendering cached template "root/menu.html.ep".
+[Thu Feb  5 17:18:45 2015] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Feb  5 17:18:45 2015] [debug] 200 OK (0.002836s, 352.609/s).
+[Thu Feb  5 17:18:52 2015] [debug] GET "/".
+[Thu Feb  5 17:18:52 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Thu Feb  5 17:18:52 2015] [debug] Rendering template "root/index.html.ep".
+[Thu Feb  5 17:18:52 2015] [debug] Rendering template "layouts/default.html.ep".
+[Thu Feb  5 17:18:52 2015] [debug] 200 OK (0.011565s, 86.468/s).
+[Thu Feb  5 17:19:03 2015] [debug] GET "/".
+[Thu Feb  5 17:19:03 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Thu Feb  5 17:19:03 2015] [debug] Rendering cached template "root/index.html.ep".
+[Thu Feb  5 17:19:03 2015] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Feb  5 17:19:03 2015] [debug] 200 OK (0.003266s, 306.185/s).
+[Thu Feb  5 17:19:12 2015] [debug] GET "/".
+[Thu Feb  5 17:19:12 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Thu Feb  5 17:19:12 2015] [debug] Rendering cached template "root/index.html.ep".
+[Thu Feb  5 17:19:12 2015] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Feb  5 17:19:12 2015] [debug] 200 OK (0.003251s, 307.598/s).
+[Thu Feb  5 17:19:17 2015] [debug] GET "/".
+[Thu Feb  5 17:19:17 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Thu Feb  5 17:19:17 2015] [debug] Rendering cached template "root/index.html.ep".
+[Thu Feb  5 17:19:17 2015] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Feb  5 17:19:17 2015] [debug] 200 OK (0.003492s, 286.369/s).
+[Thu Feb  5 17:19:20 2015] [debug] GET "/".
+[Thu Feb  5 17:19:20 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Thu Feb  5 17:19:20 2015] [debug] Rendering cached template "root/index.html.ep".
+[Thu Feb  5 17:19:20 2015] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Feb  5 17:19:20 2015] [debug] 200 OK (0.003499s, 285.796/s).
+[Fri Feb  6 10:17:47 2015] [info] Listening at "http://*:3000".
+[Fri Feb  6 10:18:03 2015] [debug] Your secret passphrase needs to be changed!!!
+[Fri Feb  6 10:18:03 2015] [debug] GET "/menu".
+[Fri Feb  6 10:18:06 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "menu".
+[Fri Feb  6 10:18:08 2015] [debug] Rendering template "root/menu.html.ep".
+[Fri Feb  6 10:18:08 2015] [debug] Rendering template "layouts/default.html.ep".
+[Fri Feb  6 10:18:08 2015] [debug] 200 OK (4.447630s, 0.225/s).
+[Fri Feb  6 10:18:08 2015] [debug] GET "/".
+[Fri Feb  6 10:18:08 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Fri Feb  6 10:18:08 2015] [debug] Rendering template "root/index.html.ep".
+[Fri Feb  6 10:18:08 2015] [debug] Rendering template "layouts/default.html.ep".
+[Fri Feb  6 10:18:08 2015] [debug] 200 OK (0.248586s, 4.023/s).
+[Fri Feb  6 10:18:44 2015] [debug] POST "/filter".
+[Fri Feb  6 10:18:44 2015] [debug] Template "not_found.development.html.ep" not found.
+[Fri Feb  6 10:18:44 2015] [debug] Template "not_found.html.ep" not found.
+[Fri Feb  6 10:18:44 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Fri Feb  6 10:18:44 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Fri Feb  6 10:18:44 2015] [debug] 404 Not Found (0.045031s, 22.207/s).
+[Fri Feb  6 10:18:51 2015] [debug] POST "/filter".
+[Fri Feb  6 10:18:51 2015] [debug] Template "not_found.development.html.ep" not found.
+[Fri Feb  6 10:18:51 2015] [debug] Template "not_found.html.ep" not found.
+[Fri Feb  6 10:18:51 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Fri Feb  6 10:18:51 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Fri Feb  6 10:18:51 2015] [debug] 404 Not Found (0.010230s, 97.752/s).
+[Fri Feb  6 10:25:46 2015] [info] Listening at "http://*:3000".
+[Fri Feb  6 10:25:48 2015] [debug] Your secret passphrase needs to be changed!!!
+[Fri Feb  6 10:25:48 2015] [debug] GET "/".
+[Fri Feb  6 10:25:49 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Fri Feb  6 10:25:49 2015] [debug] Rendering template "root/index.html.ep".
+[Fri Feb  6 10:25:49 2015] [debug] Rendering template "layouts/default.html.ep".
+[Fri Feb  6 10:25:49 2015] [debug] 200 OK (0.226151s, 4.422/s).
+[Fri Feb  6 10:26:45 2015] [info] Listening at "http://*:3000".
+[Fri Feb  6 10:26:48 2015] [debug] Your secret passphrase needs to be changed!!!
+[Fri Feb  6 10:26:48 2015] [debug] GET "/".
+[Fri Feb  6 10:26:48 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Fri Feb  6 10:26:48 2015] [debug] Rendering template "root/index.html.ep".
+[Fri Feb  6 10:26:48 2015] [debug] Rendering template "layouts/default.html.ep".
+[Fri Feb  6 10:26:48 2015] [debug] 200 OK (0.226113s, 4.423/s).
+[Fri Feb  6 10:31:39 2015] [info] Listening at "http://*:3000".
+[Fri Feb  6 10:31:41 2015] [debug] Your secret passphrase needs to be changed!!!
+[Fri Feb  6 10:31:41 2015] [debug] GET "/".
+[Fri Feb  6 10:31:41 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Fri Feb  6 10:31:41 2015] [debug] Rendering template "root/index.html.ep".
+[Fri Feb  6 10:31:41 2015] [debug] Rendering template "layouts/default.html.ep".
+[Fri Feb  6 10:31:41 2015] [debug] 200 OK (0.218193s, 4.583/s).
+[Fri Feb  6 10:31:52 2015] [debug] POST "/filter".
+[Fri Feb  6 10:31:52 2015] [debug] Template "not_found.development.html.ep" not found.
+[Fri Feb  6 10:31:52 2015] [debug] Template "not_found.html.ep" not found.
+[Fri Feb  6 10:31:52 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Fri Feb  6 10:31:52 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Fri Feb  6 10:31:52 2015] [debug] 404 Not Found (0.043593s, 22.939/s).
+[Fri Feb  6 10:41:06 2015] [info] Listening at "http://*:3000".
+[Fri Feb  6 10:41:09 2015] [debug] Your secret passphrase needs to be changed!!!
+[Fri Feb  6 10:41:09 2015] [debug] GET "/".
+[Fri Feb  6 10:41:09 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Fri Feb  6 10:41:09 2015] [debug] Rendering template "root/index.html.ep".
+[Fri Feb  6 10:41:09 2015] [debug] Rendering template "layouts/default.html.ep".
+[Fri Feb  6 10:41:09 2015] [debug] 200 OK (0.348063s, 2.873/s).
+[Fri Feb  6 10:49:07 2015] [info] Listening at "http://*:3000".
+[Fri Feb  6 10:49:11 2015] [debug] Your secret passphrase needs to be changed!!!
+[Fri Feb  6 10:49:11 2015] [debug] GET "/".
+[Fri Feb  6 10:49:11 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Fri Feb  6 10:49:11 2015] [debug] Rendering template "root/index.html.ep".
+[Fri Feb  6 10:49:11 2015] [debug] Rendering template "layouts/default.html.ep".
+[Fri Feb  6 10:49:11 2015] [debug] 200 OK (0.278796s, 3.587/s).
+[Fri Feb  6 10:50:57 2015] [debug] Your secret passphrase needs to be changed!!!
+[Fri Feb  6 10:50:57 2015] [debug] GET "/".
+[Fri Feb  6 10:50:57 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Fri Feb  6 10:50:57 2015] [debug] Rendering template "root/index.html.ep".
+[Fri Feb  6 10:50:57 2015] [debug] Rendering template "layouts/default.html.ep".
+[Fri Feb  6 10:50:57 2015] [debug] 200 OK (0.282876s, 3.535/s).
+[Fri Feb  6 10:52:10 2015] [debug] Your secret passphrase needs to be changed!!!
+[Fri Feb  6 10:52:10 2015] [debug] GET "/".
+[Fri Feb  6 10:52:10 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Fri Feb  6 10:52:10 2015] [debug] Rendering template "root/index.html.ep".
+[Fri Feb  6 10:52:10 2015] [debug] Rendering template "layouts/default.html.ep".
+[Fri Feb  6 10:52:10 2015] [debug] 200 OK (0.334216s, 2.992/s).
+[Fri Feb  6 10:52:53 2015] [debug] Your secret passphrase needs to be changed!!!
+[Fri Feb  6 10:52:53 2015] [debug] GET "/".
+[Fri Feb  6 10:52:53 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Fri Feb  6 10:52:53 2015] [debug] Rendering template "root/index.html.ep".
+[Fri Feb  6 10:52:53 2015] [debug] Rendering template "layouts/default.html.ep".
+[Fri Feb  6 10:52:53 2015] [debug] 200 OK (0.260842s, 3.834/s).
+[Fri Feb  6 10:54:15 2015] [debug] Your secret passphrase needs to be changed!!!
+[Fri Feb  6 10:54:15 2015] [debug] GET "/".
+[Fri Feb  6 10:54:15 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Fri Feb  6 10:54:15 2015] [debug] Rendering template "root/index.html.ep".
+[Fri Feb  6 10:54:15 2015] [debug] Rendering template "layouts/default.html.ep".
+[Fri Feb  6 10:54:15 2015] [debug] 200 OK (0.302446s, 3.306/s).
+[Fri Feb  6 10:54:49 2015] [debug] Your secret passphrase needs to be changed!!!
+[Fri Feb  6 10:54:49 2015] [debug] GET "/".
+[Fri Feb  6 10:54:49 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Fri Feb  6 10:54:49 2015] [debug] Rendering template "root/index.html.ep".
+[Fri Feb  6 10:54:49 2015] [debug] Rendering template "layouts/default.html.ep".
+[Fri Feb  6 10:54:49 2015] [debug] 200 OK (0.223612s, 4.472/s).
+[Fri Feb  6 10:58:13 2015] [debug] POST "/filter".
+[Fri Feb  6 10:58:13 2015] [debug] Template "not_found.development.html.ep" not found.
+[Fri Feb  6 10:58:13 2015] [debug] Template "not_found.html.ep" not found.
+[Fri Feb  6 10:58:13 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Fri Feb  6 10:58:13 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Fri Feb  6 10:58:13 2015] [debug] 404 Not Found (0.046527s, 21.493/s).
+[Fri Feb  6 11:00:13 2015] [debug] Your secret passphrase needs to be changed!!!
+[Fri Feb  6 11:00:13 2015] [debug] GET "/".
+[Fri Feb  6 11:00:13 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Fri Feb  6 11:00:13 2015] [debug] Rendering template "root/index.html.ep".
+[Fri Feb  6 11:00:13 2015] [debug] Rendering template "layouts/default.html.ep".
+[Fri Feb  6 11:00:13 2015] [debug] 200 OK (0.318529s, 3.139/s).
+[Fri Feb  6 11:00:35 2015] [debug] Your secret passphrase needs to be changed!!!
+[Fri Feb  6 11:00:35 2015] [debug] GET "/".
+[Fri Feb  6 11:00:35 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Fri Feb  6 11:00:35 2015] [debug] Rendering template "root/index.html.ep".
+[Fri Feb  6 11:00:35 2015] [debug] Rendering template "layouts/default.html.ep".
+[Fri Feb  6 11:00:35 2015] [debug] 200 OK (0.273717s, 3.653/s).
+[Fri Feb  6 11:01:12 2015] [debug] Your secret passphrase needs to be changed!!!
+[Fri Feb  6 11:01:12 2015] [debug] GET "/".
+[Fri Feb  6 11:01:12 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Fri Feb  6 11:01:12 2015] [debug] Rendering template "root/index.html.ep".
+[Fri Feb  6 11:01:12 2015] [debug] Rendering template "layouts/default.html.ep".
+[Fri Feb  6 11:01:13 2015] [debug] 200 OK (0.252435s, 3.961/s).
+[Fri Feb  6 11:01:19 2015] [debug] GET "/".
+[Fri Feb  6 11:01:19 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Fri Feb  6 11:01:19 2015] [debug] Rendering cached template "root/index.html.ep".
+[Fri Feb  6 11:01:19 2015] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Feb  6 11:01:19 2015] [debug] 200 OK (0.003910s, 255.754/s).
+[Fri Feb  6 11:01:23 2015] [debug] GET "/".
+[Fri Feb  6 11:01:23 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Fri Feb  6 11:01:23 2015] [debug] Rendering cached template "root/index.html.ep".
+[Fri Feb  6 11:01:23 2015] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Feb  6 11:01:23 2015] [debug] 200 OK (0.003442s, 290.529/s).
+[Fri Feb  6 11:02:17 2015] [debug] Your secret passphrase needs to be changed!!!
+[Fri Feb  6 11:02:17 2015] [debug] GET "/".
+[Fri Feb  6 11:02:17 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Fri Feb  6 11:02:17 2015] [debug] Rendering template "root/index.html.ep".
+[Fri Feb  6 11:02:17 2015] [debug] Rendering template "layouts/default.html.ep".
+[Fri Feb  6 11:02:17 2015] [debug] 200 OK (0.281157s, 3.557/s).
+[Fri Feb  6 11:03:32 2015] [debug] Your secret passphrase needs to be changed!!!
+[Fri Feb  6 11:03:32 2015] [debug] GET "/".
+[Fri Feb  6 11:03:32 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Fri Feb  6 11:03:32 2015] [debug] Rendering template "root/index.html.ep".
+[Fri Feb  6 11:03:32 2015] [debug] Rendering template "layouts/default.html.ep".
+[Fri Feb  6 11:03:32 2015] [debug] 200 OK (0.306780s, 3.260/s).

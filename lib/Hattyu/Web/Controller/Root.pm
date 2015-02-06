@@ -20,4 +20,12 @@ sub index {
   $self->render();
 }
 
+sub menu {
+				my $self = shift;
+				my $row = $teng->single( 'm_shop',{ shop_cd => 5002 } );
+				$row->{row_data}{shop_name} = decode_utf8($row->{row_data}{shop_name});
+				$self->stash->{shop} = $row;
+				$self->render();
+}
+
 1;
