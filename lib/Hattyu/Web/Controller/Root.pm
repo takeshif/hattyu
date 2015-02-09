@@ -3,23 +3,14 @@ use Mojo::Base 'Mojolicious::Controller';
 use Hattyu::DB;
 use DateTime;
 use Encode;
-use DDP { deparse => 1};
 
 my $teng = Hattyu::DB->new( connect_info => [ 'dbi:mysql:Hattyu:localhost', 'root', undef ] );
 
 sub index {
   my $self = shift;
-	my @hinrui = $self->param('hinrui');
-	p(@hinrui);
-	my $itr;
-	if ( $#hinrui == 0 ) {
-			$itr = $teng->search('m_item', {} );
-			print "要素なし\n";
-		}  else {
-			print "要素あり\n";
-			$itr = $teng->search('m_item',{ hinrui => "\@hinrui" }, { order_by => ['imsir','sales_start_date'] } );
-		}
-	p($itr);
+	#my $hinrui = $self->param('hinrui');
+	#my $itr = $teng->search('m_item',{ hinrui => $hinrui }, { order_by => ['imsir','sales_start_date'] } );
+	my $itr = $teng->search('m_item', {} );
 	my $entries = [];
 	while ( my $data = $itr->next ) {
 					$data->{row_data}{item_name} = decode_utf8($data->{row_data}{item_name});
