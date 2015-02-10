@@ -11,14 +11,11 @@ my $teng = Hattyu::DB->new( connect_info => [ 'dbi:mysql:Hattyu:localhost', 'roo
 sub index {
   my $self = shift;
 	my @hinrui = $self->param('hinrui');
-	my $itr = $teng->search('m_item', {} );	
-	p(@hinrui);
-	#p(@hinrui);
-	#if ($#hinrui == -1) {
-	#	my $itr = $teng->search('m_item', {} );	
-	#} else {
-	#	my $itr = $teng->search('m_item',{ hinrui => \@hinrui }, { order_by => ['imsir','sales_start_date'] } );
-	#}
+	if ($#hinrui == -1) {
+		my $itr = $teng->search('m_item', {} );	
+	} else {
+		my $itr = $teng->search('m_item',{ hinrui => \@hinrui }, { order_by => ['imsir','sales_start_date'] } );
+	}
 	
 	my $entries = [];
 	while ( my $data = $itr->next ) {
