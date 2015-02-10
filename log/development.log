@@ -2258,3 +2258,104 @@ Compilation failed in require at (eval 268) line 1.
 [Tue Feb 10 11:37:10 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
 [Tue Feb 10 11:37:10 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
 [Tue Feb 10 11:37:10 2015] [debug] 404 Not Found (0.027709s, 36.089/s).
+[Tue Feb 10 11:40:18 2015] [info] Listening at "http://*:3000".
+[Tue Feb 10 11:40:26 2015] [debug] Your secret passphrase needs to be changed!!!
+[Tue Feb 10 11:40:26 2015] [debug] GET "/".
+[Tue Feb 10 11:40:27 2015] [error] Global symbol "$itr" requires explicit package name at lib/Hattyu/Web/Controller/Root.pm line 21.
+Compilation failed in require at (eval 268) line 1.
+
+[Tue Feb 10 11:40:27 2015] [debug] Template "exception.development.html.ep" not found.
+[Tue Feb 10 11:40:27 2015] [debug] Template "exception.html.ep" not found.
+[Tue Feb 10 11:40:27 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Tue Feb 10 11:40:27 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Tue Feb 10 11:40:27 2015] [debug] 500 Internal Server Error (1.026588s, 0.974/s).
+[Tue Feb 10 11:41:01 2015] [info] Listening at "http://*:3000".
+[Tue Feb 10 11:41:04 2015] [debug] Your secret passphrase needs to be changed!!!
+[Tue Feb 10 11:41:04 2015] [debug] GET "/".
+[Tue Feb 10 11:41:04 2015] [error] Global symbol "$itr" requires explicit package name at lib/Hattyu/Web/Controller/Root.pm line 21.
+Compilation failed in require at (eval 268) line 1.
+
+[Tue Feb 10 11:41:04 2015] [debug] Template "exception.development.html.ep" not found.
+[Tue Feb 10 11:41:04 2015] [debug] Template "exception.html.ep" not found.
+[Tue Feb 10 11:41:04 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Tue Feb 10 11:41:04 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Tue Feb 10 11:41:04 2015] [debug] 500 Internal Server Error (0.382536s, 2.614/s).
+[Tue Feb 10 11:44:50 2015] [info] Listening at "http://*:3000".
+[Tue Feb 10 11:44:52 2015] [debug] Your secret passphrase needs to be changed!!!
+[Tue Feb 10 11:44:52 2015] [debug] GET "/".
+[Tue Feb 10 11:44:52 2015] [error] Global symbol "$itr" requires explicit package name at lib/Hattyu/Web/Controller/Root.pm line 22.
+Compilation failed in require at (eval 268) line 1.
+
+[Tue Feb 10 11:44:52 2015] [debug] Template "exception.development.html.ep" not found.
+[Tue Feb 10 11:44:52 2015] [debug] Template "exception.html.ep" not found.
+[Tue Feb 10 11:44:52 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Tue Feb 10 11:44:52 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Tue Feb 10 11:44:52 2015] [debug] 500 Internal Server Error (0.232452s, 4.302/s).
+[Tue Feb 10 11:50:29 2015] [info] Listening at "http://*:3000".
+[Tue Feb 10 11:50:39 2015] [debug] Your secret passphrase needs to be changed!!!
+[Tue Feb 10 11:50:39 2015] [debug] GET "/".
+[Tue Feb 10 11:50:40 2015] [error] Global symbol "$itr" requires explicit package name at lib/Hattyu/Web/Controller/Root.pm line 20.
+Compilation failed in require at (eval 268) line 1.
+
+[Tue Feb 10 11:50:40 2015] [debug] Template "exception.development.html.ep" not found.
+[Tue Feb 10 11:50:40 2015] [debug] Template "exception.html.ep" not found.
+[Tue Feb 10 11:50:40 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Tue Feb 10 11:50:40 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Tue Feb 10 11:50:41 2015] [debug] 500 Internal Server Error (1.233159s, 0.811/s).
+[Tue Feb 10 11:51:38 2015] [info] Listening at "http://*:3000".
+[Tue Feb 10 11:51:40 2015] [debug] Your secret passphrase needs to be changed!!!
+[Tue Feb 10 11:51:40 2015] [debug] GET "/".
+[Tue Feb 10 11:51:41 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Tue Feb 10 11:51:41 2015] [debug] Rendering template "root/index.html.ep".
+[Tue Feb 10 11:51:41 2015] [debug] Rendering template "layouts/default.html.ep".
+[Tue Feb 10 11:51:41 2015] [debug] 200 OK (0.867633s, 1.153/s).
+[Tue Feb 10 11:51:41 2015] [debug] GET "/images/2000235135483-s.jpg".
+[Tue Feb 10 11:51:41 2015] [debug] Template "not_found.development.html.ep" not found.
+[Tue Feb 10 11:51:41 2015] [debug] Template "not_found.html.ep" not found.
+[Tue Feb 10 11:51:41 2015] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Tue Feb 10 11:51:41 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Tue Feb 10 11:51:41 2015] [debug] 404 Not Found (0.054110s, 18.481/s).
+[Tue Feb 10 11:51:41 2015] [debug] GET "/images/2000235135490-s.jpg".
+[Tue Feb 10 11:51:41 2015] [debug] Template "not_found.development.html.ep" not found.
+[Tue Feb 10 11:51:41 2015] [debug] Template "not_found.html.ep" not found.
+[Tue Feb 10 11:51:41 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Tue Feb 10 11:51:41 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Tue Feb 10 11:51:41 2015] [debug] 404 Not Found (0.010499s, 95.247/s).
+[Tue Feb 10 11:51:48 2015] [debug] POST "/index".
+[Tue Feb 10 11:51:48 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Tue Feb 10 11:51:48 2015] [debug] Rendering cached template "root/index.html.ep".
+[Tue Feb 10 11:51:48 2015] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Feb 10 11:51:48 2015] [debug] 200 OK (0.086493s, 11.562/s).
+[Tue Feb 10 11:51:53 2015] [debug] POST "/index".
+[Tue Feb 10 11:51:53 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Tue Feb 10 11:51:53 2015] [debug] Rendering cached template "root/index.html.ep".
+[Tue Feb 10 11:51:53 2015] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Feb 10 11:51:53 2015] [debug] 200 OK (0.003974s, 251.636/s).
+[Tue Feb 10 11:51:58 2015] [debug] POST "/index".
+[Tue Feb 10 11:51:58 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Tue Feb 10 11:51:58 2015] [debug] Rendering cached template "root/index.html.ep".
+[Tue Feb 10 11:51:58 2015] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Feb 10 11:51:58 2015] [debug] 200 OK (0.004107s, 243.487/s).
+[Tue Feb 10 11:51:58 2015] [debug] GET "/images/2000235135483-s.jpg".
+[Tue Feb 10 11:51:58 2015] [debug] Template "not_found.development.html.ep" not found.
+[Tue Feb 10 11:51:58 2015] [debug] Template "not_found.html.ep" not found.
+[Tue Feb 10 11:51:58 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Tue Feb 10 11:51:58 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Tue Feb 10 11:51:58 2015] [debug] 404 Not Found (0.012086s, 82.740/s).
+[Tue Feb 10 11:52:03 2015] [debug] POST "/index".
+[Tue Feb 10 11:52:03 2015] [debug] Routing to controller "Hattyu::Web::Controller::Root" and action "index".
+[Tue Feb 10 11:52:03 2015] [debug] Rendering cached template "root/index.html.ep".
+[Tue Feb 10 11:52:03 2015] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Feb 10 11:52:03 2015] [debug] 200 OK (0.004260s, 234.742/s).
+[Tue Feb 10 11:52:03 2015] [debug] GET "/images/2000235135483-s.jpg".
+[Tue Feb 10 11:52:03 2015] [debug] Template "not_found.development.html.ep" not found.
+[Tue Feb 10 11:52:03 2015] [debug] Template "not_found.html.ep" not found.
+[Tue Feb 10 11:52:03 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Tue Feb 10 11:52:03 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Tue Feb 10 11:52:03 2015] [debug] 404 Not Found (0.025728s, 38.868/s).
+[Tue Feb 10 11:52:03 2015] [debug] GET "/images/2000235135490-s.jpg".
+[Tue Feb 10 11:52:03 2015] [debug] Template "not_found.development.html.ep" not found.
+[Tue Feb 10 11:52:03 2015] [debug] Template "not_found.html.ep" not found.
+[Tue Feb 10 11:52:03 2015] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Tue Feb 10 11:52:03 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Tue Feb 10 11:52:03 2015] [debug] 404 Not Found (0.028102s, 35.585/s).
