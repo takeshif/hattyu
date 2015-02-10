@@ -9,6 +9,8 @@ sub startup {
   $r->get('/')->to('root#index');
   $r->get('/new')->to('root#post');
   $r->post('/create')->to('root#create');
+  $r->post('/index')->to('root#index');
+
 }
 
 1;

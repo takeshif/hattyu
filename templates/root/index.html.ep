@@ -1,99 +1,98 @@
 % layout 'default';
 
 <div class="container">
-<form action="/filter" method="post">
-<div class="row">
-<div class="col-xs-6">
-** 品類フィルター **
-</div>
-</div>
+	<div class="row">
+		<div class="col-xs-6">
+			** 品類フィルター **
+		</div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="col-xs-2">
+			<label class="checkbox-inline">
+			<input type="checkbox" name="hinrui" id="chk111" value="111">アウター
+			</label>
+		</div>
+		<div class="col-xs-2">
+			<label class="checkbox-inline">
+			<input type="checkbox" name="hinrui" id="chk112" value="112">バッグ
+			</label>
+		</div>
+		<div class="col-xs-2">
+			<label class="checkbox-inline">
+			<input type="checkbox" name="hinrui" id="chk113" value="113">ファッショングッズ
+			</label>
+		</div>
+		<div class="col-xs-2">
+			<label class="checkbox-inline">
+			<input type="checkbox" name="hinrui" id="chk114" value="114">アクセサリー
+			</label>
+		</div>
+		<div class="col-xs-2">
+			<label class="checkbox-inline">
+			<input type="checkbox" name="hinrui" id="chk121" value="121">インナー
+			</label>
+		</div>
+		<div class="col-xs-2">
+			<label class="checkbox-inline">
+			<input type="checkbox" name="hinrui" id="chk122" value="122">パウダー
+			</label>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-2">
+			<label class="checkbox-inline">
+			<input type="checkbox" name="hinrui" id="chk211" value="211">洋食器
+			</label>
+		</div>
+		<div class="col-xs-2">
+			<label class="checkbox-inline">
+			<input type="checkbox" name="hinrui" id="chk212" value="212">和食器
+			</label>
+		</div>
+		<div class="col-xs-2">
+			<label class="checkbox-inline">
+			<input type="checkbox" name="hinrui" id="chk213" value="213">ダイニンググッズ
+			</label>
+		</div>
+		<div class="col-xs-2">
+			<label class="checkbox-inline">
+			<input type="checkbox" name="hinrui" id="chk221" value="221">キッチングッズ
+			</label>
+		</div>
+		<div class="col-xs-2">
+			<label class="checkbox-inline">
+			<input type="checkbox" name="hinrui" id="chk222" value="222">フード
+			</label>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-2">
+			<label class="checkbox-inline">
+			<input type="checkbox" name="hinrui" id="chk311" value="311">ファニチャー
+			</label>
+		</div>
+		<div class="col-xs-2">
+			<label class="checkbox-inline">
+			<input type="checkbox" name="hinrui" id="chk312" value="312">デコレーション
+			</label>
+		</div>
+		<div class="col-xs-2">
+			<label class="checkbox-inline">
+			<input type="checkbox" name="hinrui" id="chk313" value="313">ネイチャー
+			</label>
+		</div>
+		<div class="col-xs-2">
+			<label class="checkbox-inline">
+			<input type="checkbox" name="hinrui" id="chk314" value="314">ハウスホールド
+			</label>
+		</div>
+	</div>
 <br>
 <div class="row">
-<div class="col-xs-2">
-<label class="checkbox-inline">
-<input type="checkbox" id="chk111" value="111">アウター
-</label>
-</div>
-<div class="col-xs-2">
-<label class="checkbox-inline">
-<input type="checkbox" id="chk112" value="112">バッグ
-</label>
-</div>
-<div class="col-xs-2">
-<label class="checkbox-inline">
-<input type="checkbox" id="chk113" value="113">ファッショングッズ
-</label>
-</div>
-<div class="col-xs-2">
-<label class="checkbox-inline">
-<input type="checkbox" id="chk114" value="114">アクセサリー
-</label>
-</div>
-<div class="col-xs-2">
-<label class="checkbox-inline">
-<input type="checkbox" id="chk121" value="121">インナー
-</label>
-</div>
-<div class="col-xs-2">
-<label class="checkbox-inline">
-<input type="checkbox" id="chk122" value="122">パウダー
-</label>
-</div>
-</div>
-
-<div class="row">
-<div class="col-xs-2">
-<label class="checkbox-inline">
-<input type="checkbox" id="chk211" value="211">洋食器
-</label>
-</div>
-<div class="col-xs-2">
-<label class="checkbox-inline">
-<input type="checkbox" id="chk212" value="212">和食器
-</label>
-</div>
-<div class="col-xs-2">
-<label class="checkbox-inline">
-<input type="checkbox" id="chk213" value="213">ダイニンググッズ
-</label>
-</div>
-<div class="col-xs-2">
-<label class="checkbox-inline">
-<input type="checkbox" id="chk221" value="221">キッチングッズ
-</label>
-</div>
-<div class="col-xs-2">
-<label class="checkbox-inline">
-<input type="checkbox" id="chk222" value="222">フード
-</label>
-</div>
-</div>
-
-<div class="row">
-<div class="col-xs-2">
-<label class="checkbox-inline">
-<input type="checkbox" id="chk311" value="311">ファニチャー
-</label>
-</div>
-<div class="col-xs-2">
-<label class="checkbox-inline">
-<input type="checkbox" id="chk312" value="312">デコレーション
-</label>
-</div>
-<div class="col-xs-2">
-<label class="checkbox-inline">
-<input type="checkbox" id="chk313" value="313">ネイチャー
-</label>
-</div>
-<div class="col-xs-2">
-<label class="checkbox-inline">
-<input type="checkbox" id="chk314" value="314">ハウスホールド
-</label>
-</div>
-</div>
-<br>
-<div class="row">
-<button type="submit" class="btn btn-default">実行</button>
+<button type="submit" clas:s="btn btn-default">実行</button>
 </div>
 
 <br>
@@ -103,36 +102,36 @@
 <div class="row">
 <div class="span12">
 <table class="table table-striped table-bordered table-hover">
-  <thead>
-	  <tr>
-		  <th>商品画像</th>
-			<th>商品コード</th>
-			<th>商品名</th>
-			<th>取引先</th>
-			<th>上代単価</th>
-			<th>下代単価</th>
-			<th>品類</th>
-			<th>販売開始日</th>
-			<th>ランク</th>
-			<th>発単</th>
-			<th>発注数</th>
-		</tr>
-	</thead>
-	<tbody>
+<thead>
+<tr>
+<th>商品画像</th>
+<th>商品コード</th>
+<th>商品名</th>
+<th>取引先</th>
+<th>上代単価</th>
+<th>下代単価</th>
+<th>品類</th>
+<th>販売開始日</th>
+<th>ランク</th>
+<th>発単</th>
+<th>発注数</th>
+</tr>
+</thead>
+<tbody>
 % for my $entry (@$entries) {
-				<tr>
-				  <td><img src="/images/<%= $entry->{row_data}{item_cd} %>-s.jpg"></td>
-					<td><%= $entry->{row_data}{item_cd} %></td>
-					<td><%= $entry->{row_data}{item_name} %></td>
-					<td><%= $entry->{row_data}{imsir} %></td>
-					<td><%= $entry->{row_data}{jyodai} %></td>
-					<td><%= $entry->{row_data}{gedai} %></td>
-					<td><%= $entry->{row_data}{hinrui} %></td>
-					<td><%= $entry->{row_data}{sales_start_date} %></td>
-					<td><%= $entry->{row_data}{rank} %></td>
-					<td><%= $entry->{row_data}{hattan} %></td>
-					<td><input type="text" class="form-control" id="suryo" placeholder="Enter suryo" size="3"></td>
-				</tr>
+	<tr>
+		<td><img src="/images/<%= $entry->{row_data}{item_cd} %>-s.jpg"></td>
+		<td><%= $entry->{row_data}{item_cd} %></td>
+		<td><%= $entry->{row_data}{item_name} %></td>
+		<td><%= $entry->{row_data}{imsir} %></td>
+		<td><%= $entry->{row_data}{jyodai} %></td>
+		<td><%= $entry->{row_data}{gedai} %></td>
+		<td><%= $entry->{row_data}{hinrui} %></td>
+		<td><%= $entry->{row_data}{sales_start_date} %></td>
+		<td><%= $entry->{row_data}{rank} %></td>
+		<td><%= $entry->{row_data}{hattan} %></td>
+		<td><input type="text" class="form-control" id="suryo" placeholder="Enter suryo" size="3"></td>
+	</tr>
 % }
 </tbody>
 </table>
