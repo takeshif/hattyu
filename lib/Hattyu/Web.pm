@@ -6,10 +6,10 @@ sub startup {
   my $r = $self->routes;
 	$r->namespaces([qw/Hattyu::Web::Controller/]);
 	$r->get('/menu')->to('root#menu');
-  $r->get('/')->to('root#index');
-  $r->get('/new')->to('root#post');
-  $r->post('/create')->to('root#create');
-  $r->post('/index')->to('root#index');
+    $r->get('/')->to('root#index');
+    $r->get('/new')->to('root#post');
+    $r->post('/create')->to('root#create');
+    $r->post('/index')->to('root#index');
 
 }
 
