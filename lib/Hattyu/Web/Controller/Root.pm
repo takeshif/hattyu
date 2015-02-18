@@ -20,6 +20,9 @@ sub index {
 	my $entries = [];
 	while ( my $data = $itr->next ) {
 					$data->{row_data}{item_name} = decode_utf8($data->{row_data}{item_name});
+					my $order;
+					$order = $teng->single('j_order',+{ shop_cd => 5002, item_cd => $data->{row_data}{item_cd}});
+					$data->{row_data}{suryo} = $order->{row_data}{suryo};
 					push @$entries, $data;
 	}
 	$self->stash->{entries} = $entries;

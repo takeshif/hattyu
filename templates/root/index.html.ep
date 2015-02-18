@@ -133,7 +133,7 @@
 		<td><%= $entry->{row_data}{sales_start_date} %></td>
 		<td><%= $entry->{row_data}{rank} %></td>
 		<td><%= $entry->{row_data}{hattan} %></td>
-		<td><input type="text" class="form-control" id="suryo" placeholder="Enter suryo" size="3"></td>
+		<td><input type="text" class="form-control" id="suryo" size="3" value=<%= $entry->{row_data}{suryo} %> ></td>
 	</tr>
 % }
 </tbody>
